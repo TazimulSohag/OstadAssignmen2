@@ -1,0 +1,164 @@
+/* contact section start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.contactContent {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.contactContent {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e6edfb;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: #e6edfb;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoname {
+  font-size: 18px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: red;
+}
+
+.contactContent .wrapper {
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(189, 51, 131, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 34px;
+  margin: 20px;
+}
+
+.contactContent .wrapper h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contactContent .wrapper h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: #4070f4;
+  border-radius: 12px;
+}
+
+.contactContent .wrapper form {
+  margin: 30px;
+}
+
+.contactContent .wrapper form .input-box {
+  height: 52px;
+  width: 100%;
+  margin: 18px 0;
+}
+
+form .input-box input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(189, 51, 131, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  padding: 0 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border-bottom-width: 2.5px;
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus,
+.input-box input:valid {
+  border-color: #4070f4;
+}
+
+form h3 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-box.button input {
+  color: #fff;
+  width: 100%;
+  letter-spacing: 2px;
+  border: none;
+  background: #4070f4;
+  cursor: pointer;
+}
+
+.input-box.button input:hover {
+  background: #fff;
+  color: #000;
+}
+textarea {
+  height: 52px;
+  width: 100%;
+  margin: 0 0 18px 0 !important;
+  padding-left: 8px;
+  outline: none;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(189, 51, 131, 0.37);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  padding: 0 8px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border-bottom-width: 2.5px;
+  transition: all 0.3s ease;
+  padding: 8px 8px;
+}
